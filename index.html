@@ -6,15 +6,17 @@
      <title>Document</title>
 </head>
 <style>
-     .button{
-          display: flex;
-          justify-content: center;
-          margin-right: 40px;
-          
-     }
 </style>
 <body>
      <h1>Hello, World!</h1>
      <h2>My Code</h2>
+     <div class="button">
+          <button onclick="closeWebpage">Click Me!</button>
+     </div>
 </body>
+<script>
+     const closeWebpage = () => {
+          window.close();
+     }
+</script>
 </html>
