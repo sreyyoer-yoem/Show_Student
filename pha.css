@@ -6,3 +6,10 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+button:hover{
+    background-color: darkblue;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}       
